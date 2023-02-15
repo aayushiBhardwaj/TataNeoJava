@@ -1,0 +1,47 @@
+{
+  "server": "hub.browserstack.com",
+
+
+  "capabilities": {
+    "app": "bs://c8f73000643804d8bd5b53f300674b56de0af0e4",
+    "autoWebView": true,
+    "autoGrantPermissions": true,
+    "bstack:options": {
+      "projectName": "First TestNg Android Project",
+      "buildName": "Tata Neu Build",
+      "sessionName": "BStack first_test",
+      "debug": true,
+      "userName": "sanketmali4",
+      "accessKey": "CJhPAEJj1kYV2UV7Hmqz",
+      "appiumVersion" : "1.22.0",
+      "geoLocation" : "IN"
+    }
+  },
+
+
+  "environments": [
+    {
+      "deviceName": "Google Pixel 3",
+      "platformVersion": "9.0",
+      "platformName": "android"
+    },
+
+    {
+      "deviceName": "Samsung Galaxy S22",
+      "platformVersion": "12.0",
+      "platformName": "android"
+    },
+
+    {
+      "deviceName": "Samsung Galaxy S21",
+      "platformVersion": "11.0",
+      "platformName": "android"
+    },
+
+    {
+      "deviceName": "Google Pixel 6",
+      "platformVersion": "12.0",
+      "platformName": "android"
+    }
+  ]
+}

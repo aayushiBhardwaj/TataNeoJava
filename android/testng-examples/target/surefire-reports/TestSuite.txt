@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 0.216 s <<< FAILURE! - in TestSuite
+setUp(com.browserstack.FirstTest)  Time elapsed: 0.133 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'config' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+tearDown(com.browserstack.FirstTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.quit()" because "this.driver" is null
+

@@ -1,0 +1,24 @@
+{
+  "server": "hub-cloud.browserstack.com",
+
+  "capabilities": {
+    "app": "bs://e07accbe46c8e861c740c5ba097b3609491212c2",
+    "bstack:options": {
+      "projectName": "First TestNg iOS Project",
+      "buildName": "browserstack-build-1",
+      "sessionName": "BStack parallel_test",
+      "debug": true,
+      "userName":"username",
+      "accessKey": "accessKey",
+      "appiumVersion": "1.22.0"
+    }
+  },
+
+  "environments": [
+    { 
+      "deviceName": "iPhone 12",
+      "platformVersion": "14",
+      "platformName": "ios"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 1, Time elapsed: 129.507 s <<< FAILURE! - in TestSuite
+setUp(com.browserstack.run_parallel_test.ParallelTest)  Time elapsed: 0.123 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+
+tearDown(com.browserstack.run_parallel_test.ParallelTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "io.appium.java_client.ios.IOSDriver.quit()" because "this.driver" is null
+
+test(com.browserstack.run_parallel_test.ParallelTest)  Time elapsed: 47.518 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PratikThakur-FVFGWNTAQ05D', ip: '2405:201:41:381d:b017:13df:bf3f:3a53%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.1', java.version: '18.0.2'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.isTargetBased: true, bundleID: com.tatadigital.tcp.dev, bundleId: com.tatadigital.tcp.dev, databaseEnabled: false, deviceName: iphone, deviceOrientation: PORTRAIT, javascriptEnabled: true, keychainPassword: [REDACTED VALUE], keychainPath: [REDACTED VALUE], locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 0, noReset: true, orientation: PORTRAIT, platform: MAC, platformName: iOS, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., takesScreenshot: true, udid: 00008101-000E5D3A3AC2001E, useXctestrunFile: true, waitForQuiescence: false, wdaStartupRetries: 3, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: 27933b80e5c588a7e42e1d93fe261fcbd5c424b9
+*** Element info: {Using=xpath, value=(//span[@class='header-pincode-edit pincode-s-edit pincode-pencil-icon'])[2]}
+	at com.browserstack.run_parallel_test.ParallelTest.test(ParallelTest.java:80)
+

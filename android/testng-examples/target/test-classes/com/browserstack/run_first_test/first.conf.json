@@ -1,0 +1,26 @@
+{
+  "server": "hub.browserstack.com",
+
+  "capabilities": {
+    "app": "bs://c339c2cba38894c34e81e30807338c3682278fe7",
+    "autoWebView": true,
+    "autoGrantPermissions": true,
+    "bstack:options": {
+      "projectName": "First TestNg Android Project",
+      "buildName": "Tata Neu Build",
+      "sessionName": "BStack first_test",
+      "debug": true,
+      "userName":"pratikth_gmv3Ra",
+      "accessKey": "sNrTyMuidRqELb7Xk9yx",
+      "appiumVersion" : "1.22.0"
+    }
+  },
+
+  "environments": [
+    {
+      "deviceName": "Google Pixel 7",
+      "platformVersion": "13.0",
+      "platformName": "android"
+    }
+  ]
+}
